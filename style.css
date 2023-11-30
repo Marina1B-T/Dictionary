@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Josefin+Sans&family=Nunito+Sans:opsz,wght@6..12,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    padding: 55px;
+    background-color: #74BDCB;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40 0px;
+}
+
+span{
+    position: absolute;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    padding: 17px;
+    border-radius: 10px;
+    background-color:#EFE7BC;
+
+    visibility: hidden;
+}
+
+#close{
+    background-color: #FFA384;
+    border-radius: 10px;
+    border-color:#FFA384;
+    width: 20px;
+    align-self: flex-end;
+}
+
+.inicio{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#titulo-inicio {
+    justify-content: flex-start;
+    background-color: #FFA384;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.inicio h1 {
+    background-color: #FFA384;
+    height: 60px;
+    width: 330px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+p{
+    font-size: 27px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 38px;
+}
+
+.p{
+    background-color:#EFE7BC;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.p:hover{
+    background-color: #FFA384;
+}
+
+#nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E7F2F8;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E7F2F8;
+}
+
+.palavras{
+    display: flex;
+    gap: 160px;
+    justify-content: center;
+}
+
+.intr{
+    display: flex;
+    gap: 20px;
+}
+
+.exemplo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mensagem{
+    background-color:#FFA384;
+    border-radius: 30px;
+    min-width: 130px;
+    height: auto;
+    min-height: 50px;
+    padding: 0 10px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#botao{
+    background-color: #FFA384;
+    border-radius: 37px;
+    border-color:#FFA384;
+    width: 37px;
+    height: 37px;
+    align-self: flex-end;
+}
+
+.def{
+    font-size: 20px;
+    color: gray;
+}
+
+.dialogo{
+    background-color: #EFE7BC;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    width: 50vw;
+    align-items: flex-start;
+
+    visibility: hidden;
+}
+
+.audio{
+    background-color:#EFE7BC;
+    border: none;
+}
+
+.audio img{
+    width: 25px;
+    height: 25px;
+}
+
+.palavra{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.conversa{
+    display: flex;
+    justify-content: center;
+}
+
